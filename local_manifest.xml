@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="rashmi" fetch="https://github.com/rashmi722642" revision="17" />
+  <remote name="pixelify" fetch="https://github.com/Pixelify-devices" revision="17" />
+
+  <!-- Device Trees -->
+  <project path="device/xiaomi/marble" name="android_device_xiaomi_marble" remote="rashmi" />
+  <project path="device/xiaomi/sm8450-common" name="android_device_xiaomi_sm8450-common" remote="rashmi" />
+
+  <!-- Vendors -->
+  <project path="vendor/xiaomi/marble" name="android_vendor_xiaomi_marble" remote="rashmi" />
+  <project path="vendor/xiaomi/sm8450-common" name="android_vendor_xiaomi_sm8450-common" remote="rashmi" />
+  <project path="vendor/xiaomi/marble-firmware" name="vendor_xiaomi_marble-firmware" remote="rashmi" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm8450" name="android_kernel_xiaomi_sm8450" remote="rashmi" />
+  <project path="kernel/xiaomi/sm8450-devicetrees" name="android_kernel_xiaomi_sm8450-devicetrees" remote="rashmi" />
+  <project path="kernel/xiaomi/sm8450-modules" name="android_kernel_xiaomi_sm8450-modules" remote="rashmi" />
+
+  <!-- Hardware -->
+  <project path="hardware/dolby" name="hardware_dolby" remote="rashmi" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="rashmi" />
+
+  <!-- MIUI Camera -->
+  <project path="device/xiaomi/miuicamera-marble" name="device_xiaomi_miuicamera-marble" remote="pixelify" />
+  <project path="vendor/xiaomi/miuicamera-marble" name="vendor_xiaomi_miuicamera-marble" remote="pixelify" />
+
+</manifest>
