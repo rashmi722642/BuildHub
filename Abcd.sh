@@ -8,7 +8,7 @@
 # REPO INIT
 # =========================================================
 
-repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b seventeen --git-lfs
+repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b seventeen --git-lfs --depth=1
 
 echo "=================="
 echo "Repo init success"
